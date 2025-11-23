@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Cannon Game</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_message">You missed %d times</string>
+    <string name="results">%d shots in %.1f seconds</string>
+    <string name="win_title">You Win!</string>
+    <string name="lose_title">You Lose!</string>
+    <string name="play_again">Play Again?</string>
+    <string name="reset_game">Reset Game</string>
+    <string name="close">Close</string>
+    <string name="time_remaining_format">Time remaining: %.1f seconds</string>
+</resources>
