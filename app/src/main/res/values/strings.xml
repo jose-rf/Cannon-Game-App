@@ -7,4 +7,9 @@
     <string name="win">VOCÊ VENCEU!</string>
     <string name="lose">VOCÊ PERDEU!</string>
     <string name="reset_game">Jogar Novamente</string>
+    <string name="score_format">Pontos: %d</string>
+    <string name="lives_format">Vidas: %d</string>
+    <string name="game_over_title">Fim de Jogo</string>
+    <string name="final_score">Pontuação Final: %d\nTiros: %d\nTempo: %.1f seg</string>
+    <string name="boom">BOOM!</string>
 </resources>
