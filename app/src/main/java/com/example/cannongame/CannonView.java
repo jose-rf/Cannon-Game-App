@@ -64,9 +64,9 @@ public class CannonView extends SurfaceView implements SurfaceHolder.Callback {
 
         soundMap = new SparseIntArray();
         // Sons do sistema que existem em todos os emuladores
-        soundMap.put(TARGET_SOUND_ID,  0);
-        soundMap.put(CANNON_SOUND_ID,  0);
-        soundMap.put(BLOCKER_SOUND_ID, 0);   // erro / colisão
+        soundMap.put(TARGET_SOUND_ID,  soundPool.load(context, R.raw.target_hit, 1));
+        soundMap.put(CANNON_SOUND_ID,  soundPool.load(context, R.raw.cannon_fire, 1));
+        soundMap.put(BLOCKER_SOUND_ID, soundPool.load(context, R.raw.blocker_hit, 1));   // erro / colisão
 
         backgroundPaint.setColor(nightMode ? Color.BLACK : Color.WHITE);
         textPaint.setColor(nightMode ? Color.WHITE : Color.BLACK);
