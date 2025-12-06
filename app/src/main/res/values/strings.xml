@@ -12,4 +12,7 @@
     <string name="game_over_title">Fim de Jogo</string>
     <string name="final_score">Pontuação Final: %d\nTiros: %d\nTempo: %.1f seg</string>
     <string name="boom">BOOM!</string>
+    <string name="share">Compartilhar</string>
+    <string name="exit">Sair</string>
+    <string name="best_score_format">Melhor: %d</string>
 </resources>
